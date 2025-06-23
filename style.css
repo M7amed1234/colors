@@ -1,0 +1,89 @@
+body{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+#change-color1{ font-size: 35px;
+ padding: 15px;
+border-radius:25px ;
+background-color: red;
+color: hsl(0, 0%, 100%);
+float: right;
+margin-right: 20px;
+width: 250px;
+}
+#change-color1:hover{
+background-color: rgb(202, 0, 0);
+transition: 0.5s;
+transform: scale(1.2);
+}
+
+#change-color2{
+ font-size: 35px; 
+ padding: 15px;
+border-radius:25px ;
+background-color: yellow;
+color: hsl(0, 0%, 100%);
+float: right;
+margin-right: 20px;
+width: 250px;
+margin-top: 20px;
+
+}
+#change-color2:hover{
+background-color: rgb(211, 211, 0);
+transition: 0.5s;
+transform: scale(1.2);
+}
+
+#change-color3{
+ font-size: 35px; 
+ padding: 15px;
+border-radius:25px ;
+background-color: blue;
+color: lab(100% 0.01 -0.01);
+float: right;
+margin-right: 20px;
+width: 250px;
+margin-top: 20px;
+}
+#change-color3:hover{
+background-color: rgb(0, 0, 192);
+transition: 0.5s;
+transform: scale(1.2);
+}
+
+#change-color4{
+ font-size: 35px; 
+ padding: 15px;
+border-radius:25px ;
+background-color: rgb(223, 221, 221);
+color:black;
+float: right;
+margin-right: 20px;
+width: 250px;
+margin-top: 20px;
+}
+#change-color4:hover{
+background-color:rgb(190, 190, 190);
+transition: 0.5s;
+transform: scale(1.2);
+}
+
+#change-color5{
+ font-size: 35px; 
+ padding: 15px;
+border-radius:25px ;
+background-color:black;
+color:white;
+float: right;
+margin-right: 20px;
+width: 250px;
+margin-top: 20px;
+}
+#change-color5:hover{
+background-color:rgb(53, 53, 53);
+transition: 0.5s;
+transform: scale(1.2);
+}
